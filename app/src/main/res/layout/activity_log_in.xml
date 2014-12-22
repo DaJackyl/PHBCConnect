@@ -19,7 +19,7 @@
         android:textColor="#ff029dff"
         android:textStyle="bold"
         android:textSize="24dp"
-        android:layout_marginTop="87dp"
+        android:layout_marginTop="71dp"
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@+id/ltxtPH"
         android:layout_toEndOf="@+id/ltxtPH" />
@@ -51,7 +51,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/ptxtUser"
-        android:layout_marginTop="65dp"
+        android:layout_marginTop="80dp"
         android:maxWidth="320dp"
         android:minWidth="320dp"
         android:layout_below="@+id/ltxtBC"
@@ -76,7 +76,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/textUser"
         android:id="@+id/ltxtUser"
-        android:layout_centerVertical="true"
+        android:layout_below="@+id/ptxtUser"
         android:layout_centerHorizontal="true" />
 
     <TextView
